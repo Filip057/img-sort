@@ -4,7 +4,7 @@ import re
 
 def sort_jpg():
     name = input("Name of your folder: ")
-    directory = input("Path of your folder: ")
+    directory = input("Path to your folder: ")
     old_folder = directory+"/"+name
     raw_folder = directory+"/"+name+"/RAW"
     #creating new folder
